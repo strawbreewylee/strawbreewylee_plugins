@@ -1,7 +1,0 @@
-name: Bulk Move (Stash UI)
-description: Adds "Move to folder…" to the selection bar of Stash UI for scenes, images and zip/cbz archives (galleries). Moves the selected items' files with Stash's own moveFiles mutation, so the database always follows the files. Preview, collision detection, a running-jobs guard and a verified report.
-version: 1.2.1
-# UI only: no backend, no tasks. The module below is picked up by Stash UI (API v2).
-ui:
-  assets:
-    /: web
